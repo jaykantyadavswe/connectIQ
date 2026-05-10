@@ -36,7 +36,7 @@ GET http://localhost:8080/get_user_and_profile HTTP/1.1
 Content-Type: application/json
 
 {
-    "token": "4420a0b6d0f36760068e17613b44dbb0d98bf935e74396c50acd4fb35bc9b1eb"
+    "token": "724f8b2bf793e4baf485bcefc54c0100f9ff818bb67679c28aeb5233e7121e99"
 }
 
 ###
@@ -44,14 +44,20 @@ POST http://localhost:8080/update_profile_data HTTP/1.1
 Content-Type: application/json
 
 {
-    "token": "5ccc517eb6d1d63ddaf88d042cc8c6f551e635d099c244dbb937a4ead8ecca17",
+    "token": "724f8b2bf793e4baf485bcefc54c0100f9ff818bb67679c28aeb5233e7121e99",
     "bio": "Software Engineer",
-    "currentPost": [{"position": "CTO"}],
-    "postWork": [
+    "currentWork": [
+        {
+            "company": "Google",
+            "position": "SDE",
+            "years": "2025-Present"
+        }
+    ],
+    "pastWork": [
         {
             "company": "Microsoft",
-            "Position": "CTO",
-            "YEARS": "2+"
+            "position": "Intern",
+            "years": "2024-2025"
         }
     ],
     "education": [{
