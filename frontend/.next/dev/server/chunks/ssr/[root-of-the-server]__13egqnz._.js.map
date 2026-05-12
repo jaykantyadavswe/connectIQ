@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 12, "column": 0}, "map": {"version":3,"sources":["file:///D:/Learn%20Skills/Project/LinkedIN/frontend/src/pages/_app.js"],"sourcesContent":["import \"@/styles/globals.css\";\nimport { Provider } from \"react-redux\";\n\nexport default function App({ Component, pageProps }) {\n  return <>\n  <Provider store={st}>\n\n  </Provider>\n  </>;\n}\n"],"names":["App","Component","pageProps","store","st"],"mappings":";;;;;AACA;;;;;;;;AAEe,SAASA,IAAI,EAAEC,SAAS,EAAEC,SAAS,EAAE;IAClD,qBAAO;kBACP,cAAA,qKAAC,6LAAQ;YAACC,OAAOC;;;;;;;AAInB"}}]
+}
