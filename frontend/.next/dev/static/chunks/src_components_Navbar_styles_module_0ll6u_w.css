@@ -1,0 +1,31 @@
+/* [project]/src/components/Navbar/styles.module.css [client] (css) */
+.styles-module__4PbuZa__container {
+  padding: 1.2rem;
+}
+
+.styles-module__4PbuZa__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.styles-module__4PbuZa__navBarOptionContainer {
+  display: flex;
+}
+
+.styles-module__4PbuZa__buttonJoin {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #000;
+  background-color: #a8f2eb;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: .8rem;
+  padding-block: .6rem;
+  padding-inline: 1rem;
+  font-size: 1.1rem;
+  transition: all .2s;
+}
+
+/*# sourceMappingURL=src_components_Navbar_styles_module_0ll6u_w.css.map*/

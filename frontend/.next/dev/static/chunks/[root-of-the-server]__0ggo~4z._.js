@@ -466,33 +466,11 @@ function triggerUpdate(msg) {
     }
 }
 }),
-"[project]/src/pages/login/index.jsx [client] (ecmascript)", ((__turbopack_context__) => {
-"use strict";
+"[project]/src/pages/login/index.jsx [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 
-__turbopack_context__.s([
-    "default",
-    ()=>__TURBOPACK__default__export__
-]);
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/jsx-dev-runtime.js [client] (ecmascript)");
-var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/react/index.js [client] (ecmascript)");
-;
-;
-function LoginComponent() {
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        children: "LoginComponent"
-    }, void 0, false, {
-        fileName: "[project]/src/pages/login/index.jsx",
-        lineNumber: 5,
-        columnNumber: 5
-    }, this);
-}
-_c = LoginComponent;
-const __TURBOPACK__default__export__ = LoginComponent;
-var _c;
-__turbopack_context__.k.register(_c, "LoginComponent");
-if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
-    __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
-}
+const e = new Error("Could not parse module '[project]/src/pages/login/index.jsx'\n\nExpected corresponding JSX closing tag for <UserLayout>");
+e.code = 'MODULE_UNPARSABLE';
+throw e;
 }),
 "[next]/entry/page-loader.ts { PAGE => \"[project]/src/pages/login/index.jsx [client] (ecmascript)\" } [client] (ecmascript)", ((__turbopack_context__, module, exports) => {
 

@@ -1,4 +1,52 @@
 /* [project]/src/styles/Home.module.css [client] (css) */
+.Home-module__Ho9lYW__container {
+  padding: 1.2rem;
+  font-family: Poppins;
+}
 
+.Home-module__Ho9lYW__mainContainer {
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  height: 80vh;
+  padding-inline: 2rem;
+  display: flex;
+}
+
+.Home-module__Ho9lYW__mainContainer_left, .Home-module__Ho9lYW__mainContainer_right {
+  flex: .5;
+}
+
+.Home-module__Ho9lYW__mainContainer_left > p:first-child {
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(40deg, #000, #dbc8c8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2.9rem;
+}
+
+.Home-module__Ho9lYW__mainContainer_left > p:nth-child(2) {
+  color: #404040;
+  font-size: 1.7rem;
+}
+
+.Home-module__Ho9lYW__mainContainer_left > div.Home-module__Ho9lYW__buttonJoin {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #000;
+  background-color: #ff0;
+  border-radius: 20px;
+  width: fit-content;
+  margin-top: .8rem;
+  padding-block: .6rem;
+  padding-inline: 1.2rem;
+  font-size: 1.4rem;
+  transition: all .2s;
+}
+
+.Home-module__Ho9lYW__heading_image {
+  width: 40rem;
+}
 
 /*# sourceMappingURL=src_styles_Home_module_css_0hklytk._.single.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 10, "column": 0}, "map": {"version":3,"sources":["file:///D:/Learn%20Skills/Project/LinkedIN/frontend/src/pages/login/index.jsx"],"sourcesContent":["import UserLayout from '@/layout/users';\r\nimport React from 'react'\r\n\r\nfunction LoginComponent() {\r\n  return (\r\n    <UserLayout>LoginComponent</UserLayout>\r\n  )\r\n}\r\n\r\nexport default LoginComponent"],"names":["LoginComponent"],"mappings":";;;;;AAAA;AACA;;;;AAEA,SAASA;IACP,qBACE,qKAAC,oIAAU;kBAAC;;;;;;AAEhB;uCAEeA"}}]
+}
