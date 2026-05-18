@@ -1,0 +1,106 @@
+/* [project]/src/components/Navbar/styles.module.css [client] (css) */
+.styles-module__4PbuZa__container {
+  padding: 1.2rem;
+}
+
+.styles-module__4PbuZa__navBar {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.styles-module__4PbuZa__navBarOptionContainer {
+  display: flex;
+}
+
+.styles-module__4PbuZa__buttonJoin {
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  color: #000;
+  background-color: #a8f2eb;
+  border-radius: 10px;
+  width: fit-content;
+  margin-top: .8rem;
+  padding-block: .6rem;
+  padding-inline: 1rem;
+  font-size: 1.1rem;
+  transition: all .2s;
+}
+
+/* [project]/src/pages/login/style.module.css [client] (css) */
+.style-module__cXfOGG__container {
+  background: snow;
+  justify-content: center;
+  align-items: center;
+  height: 90svh;
+  display: flex;
+}
+
+.style-module__cXfOGG__cardContainer {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 80vw;
+  height: 80vh;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 10px 10px 15px #adadad;
+}
+
+.style-module__cXfOGG__cardContainer_left {
+  text-align: center;
+  flex: .6;
+  padding: 2rem;
+}
+
+.style-module__cXfOGG__cardLeft_heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.style-module__cXfOGG__inputContainer {
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  max-width: 400px;
+  margin: 0 auto;
+  padding-top: 1.3rem;
+  display: flex;
+}
+
+.style-module__cXfOGG__inputField {
+  border: 1px solid silver;
+  border-radius: 10px;
+  outline: none;
+  width: 100%;
+  padding-block: .8rem;
+  padding-inline: 1.3rem;
+}
+
+.style-module__cXfOGG__inputRow {
+  gap: 1.2rem;
+  display: flex;
+}
+
+.style-module__cXfOGG__buttonWithOutline {
+  cursor: pointer;
+  background: #e4e0e0;
+  border-radius: 10px;
+  width: 100%;
+  padding: .8rem 1.3rem;
+}
+
+.style-module__cXfOGG__cardContainer_right {
+  color: #fff;
+  text-align: center;
+  background: #3d19b7;
+  flex-direction: column;
+  flex: .4;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+  padding-inline: 1.2rem;
+  display: flex;
+}
+
+/*# sourceMappingURL=src_0nj653.._.css.map*/

@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///D:/Learn%20Skills/Project/LinkedIN/frontend/src/pages/dashboard/index.jsx"],"sourcesContent":["import { useRouter } from 'next/navigation';\r\nimport React, {useEffect} from 'react'\r\n\r\nfunction dashboard() {\r\n    const router = useRouter();\r\n\r\n    useEffect(() => {\r\n      if(localStorage.getItem(\"token\") === null){\r\n        router.push(\"/login\");\r\n      }\r\n    })\r\n    \r\n  return (\r\n    <div>dashboard</div>\r\n  )\r\n}\r\n\r\nexport default dashboard"],"names":["dashboard","router","localStorage","getItem","push"],"mappings":";;;;;AAAA;AACA;;;;AAEA,SAASA;IACL,MAAMC,SAAS,IAAA,wIAAS;IAExB,IAAA,gHAAS,EAAC;QACR,IAAGC,aAAaC,OAAO,CAAC,aAAa,MAAK;YACxCF,OAAOG,IAAI,CAAC;QACd;IACF;IAEF,qBACE,qKAAC;kBAAI;;;;;;AAET;uCAEeJ"}}]
+}
